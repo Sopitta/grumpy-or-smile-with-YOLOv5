@@ -2,3 +2,4 @@ yolov5/
 labelImg/
 data/
 *.pt
+detect.ipynb
