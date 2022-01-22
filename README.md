@@ -1,6 +1,6 @@
 # Grumpy or smiley face detection with YOLOv5
 
-This project applies YOLOv5 to detect wheter a face (especially my face :D) is grumpy or smiley. 
+This project applies YOLOv5 from https://github.com/ultralytics/yolov5 to detect wheter a face (especially my face :D) is grumpy or smiley. 
 The code follows and adapts from https://www.youtube.com/watch?v=tFNJGim3FXw by Nicholas Renotte.
 ## Pretrianed model
 
@@ -37,6 +37,12 @@ Before continue, make sure that the folder /data/labels exists.
 4. labelImg window will pop up, label all the images in data/images ans saved the labels to data/labels. make sure to save labels in yolo format.
     
 ## Label the images
+
+![LabelImg](https://github.com/Sopitta/grumpy-or-smile-with-YOLOv5/blob/main/image/labelImg.PNG)
+
+1. Set Open Dir to be the /data/images
+2. Change save dir to /data/labels
+3. Change the labelling for mat on the left panel to YOLO format.
 
 ## Train the model on custom dataset
 
