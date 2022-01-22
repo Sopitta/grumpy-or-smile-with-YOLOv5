@@ -43,6 +43,8 @@ Before continue, make sure that the folder /data/labels exists.
 1. Set Open Dir to be the /data/images
 2. Change save dir to /data/labels
 3. Change the labelling for mat on the left panel to YOLO format.
+4. Create a bounding box with a shortkey w, make sure to save after that.
+5. Go to the next image in a folder by click Next Image.
 
 ## Train the model on custom dataset
 
